@@ -1,0 +1,38 @@
+body {
+  background-color: #b7b7b7;
+  padding: 10px;
+}
+
+.content {
+  background-color: white;
+  margin: auto;
+  width: 100%;
+  max-width: 1000px;
+  min-width: 353px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; 
+}
+
+.personal {
+  background-color: #302f30;
+  width: 33%;
+  text-align: center;
+  color: white;
+}
+
+.professional {
+  width: 66%;
+}
+
+.selfie-content {
+  text-align: center;
+  padding: 38px;
+}
+
+.selfie {
+  max-width: 250px;
+  border-radius: 50%;
+}
