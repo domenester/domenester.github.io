@@ -1,0 +1,20 @@
+{
+  "name": "domenester.github.io",
+  "version": "1.0.0",
+  "description": "My Page",
+  "main": "index.js",
+  "scripts": {
+    "push": "git add . && git commit -m \"Saving Progress\" && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domenester/domenester.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/domenester/domenester.github.io/issues"
+  },
+  "homepage": "https://github.com/domenester/domenester.github.io#readme"
+}
