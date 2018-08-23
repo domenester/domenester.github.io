@@ -88,7 +88,10 @@ label {
 }
 
 .personal-box {
-  margin: 60px 20px 20px 20px;
+  padding: 30px 20px 20px 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .personal-box-content {
@@ -110,11 +113,12 @@ label {
 
 .selfie-content {
   text-align: center;
-  padding: 38px;
+  padding: 10% 0px 0px 0px;
 }
 
 .selfie {
   max-width: 250px;
+  width: 70%;
   border-radius: 50%;
 }
 
@@ -131,4 +135,35 @@ label {
 .bar-front {
   height: 10px;
   background-color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .content {
+    display: block;
+  }
+  .personal {
+    width: 100%;
+  }
+  .professional {
+    width: 100%;
+  }
+  .personal-box {
+    width: 50%;
+  }
+  .fiter {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex; 
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .personal-box {
+    width: 100%;
+  }
+  .fiter {
+    display: block;
+  }
 }
