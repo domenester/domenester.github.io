@@ -153,12 +153,27 @@ label {
 }
 
 .techs-item {
-  width: 25%;
+  width: 50%;
   padding: 0px 10px 0px 10px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  float: left;
+}
+
+.techs-filter {
+  width: 50%;
   display: inline-block;
+  text-align: center;
+}
+
+.coupling {
+  height: 8px;
+  border-width: 1px;
+  border-bottom-width: 0px;
+  border-color: gray;
+  border-style: solid;
+  margin: 5px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -188,7 +203,7 @@ label {
     width: 100%;
   }
   .techs-item {
-    width: 50%;
+    width: 100%;
   }
   .fiter {
     display: block;
