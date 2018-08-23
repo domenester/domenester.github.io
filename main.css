@@ -8,7 +8,6 @@
 
 body {
   background-color: #b7b7b7;
-  padding: 10px;
   font-family: Century;
   font-size: 14px;
 }
@@ -27,7 +26,7 @@ label {
   margin: auto;
   width: 100%;
   max-width: 1000px;
-  min-width: 353px;
+  min-width: 300px;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -150,16 +149,16 @@ label {
 
 .techs {
   width: 100%;
-  display: block;
+  display: inline-table;
 }
 
 .techs-item {
   width: 25%;
-  float: left;
   padding: 0px 10px 0px 10px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  display: inline-block;
 }
 
 @media only screen and (max-width: 768px) {
