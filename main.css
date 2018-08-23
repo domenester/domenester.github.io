@@ -12,6 +12,12 @@ body {
   font-size: 14px;
 }
 
+a {
+  cursor: pointer;
+  color: white;
+  z-index: 2;
+}
+
 label {
   display: block;
   margin: 5px;
