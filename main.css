@@ -1,6 +1,15 @@
+@font-face {
+  src: url("fonts/century-gothic.ttf") format("ttf"),
+  url("fonts/century-gothic.eot") format("eot"),
+  url("fonts/century-gothic.woff") format("woff");
+  font-familiy: Century;
+  font-style: normal;
+}
+
 body {
   background-color: #b7b7b7;
   padding: 10px;
+  font-family: Century;
 }
 
 label {
