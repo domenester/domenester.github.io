@@ -88,6 +88,12 @@ label {
   color: #b7b7b7;
 }
 
+.professional-description{
+  width: 100%;
+  color: #b7b7b7;
+  text-align: justify;
+  margin-top: 5px;
+}
 .item-content {
   width: 75%;
 }
