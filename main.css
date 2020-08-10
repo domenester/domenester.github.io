@@ -1,3 +1,16 @@
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .only-print {
+    display: block !important;
+  }
+}
+
+.only-print {
+  display: none;
+}
+
 @font-face {
   src: url("fonts/century-gothic.ttf") format("ttf"),
   url("fonts/century-gothic.eot") format("eot"),

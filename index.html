@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Diogo Domene</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen, print" href="main.css" />
   </head>
   <body>
     <div class="content">
       <div class="personal">
-        <div class="selfie-content">
+        <div class="selfie-content no-print">
           <img class="selfie" src="images/profile-pic.jpg"/>
         </div>
         <div class="description">
@@ -25,26 +25,29 @@
               <hr>
               <label>
                 <img src="images/phone-solid.svg" />
+                <label class="only-print">Telefone: </label>
                 <span>+55 (11) 99795-3111</span>
               </label>
               <label>
                 <img src="images/map-marker-alt-solid.svg" />
+                <label class="only-print">Endereço: </label>
                 <span>Pinheiros - SP</span>
               </label>
               <label>
                 <img src="images/envelope-solid.svg" />
+                <label class="only-print">Email: </label>
                 <span>diogodomene@gmail.com</span>
               </label>
               <label>
                 <img src="images/linkedin-in-brands.svg" />
                 <a href="https://www.linkedin.com/in/diogodomene" target="_blank">
-                  /diogodomene
+                  <label class="only-print">Linkedin: </label> /diogodomene
                 </a>
               </label>
               <label>
                 <img src="images/github-brands.svg" />
                 <a href="https://www.github.com/domenester" target="_blank">
-                  /domenester
+                  <label class="only-print">Github: </label> /domenester
                 </a>
               </label>
             </div>
