@@ -6,8 +6,11 @@
     <title>Diogo Domene</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen, print" href="main.css" />
+    <script src="./scripts/pt-br.js"></script>
+    <script src="./scripts/en.js"></script>
+    <script src="./scripts/index.js"></script>
   </head>
-  <body>
+  <body onload="loadContent()">
     <div class="content">
       <div class="personal">
         <div class="selfie-content no-print">
@@ -15,22 +18,22 @@
         </div>
         <div class="description">
           <h1 class="row"> Diogo Domene </h1>
-          <label class="row"> Engenheiro de Software </label>
-          <label class="row"> 27 anos </label>
+          <label name="occupation" class="row"> Engenheiro de Software </label>
+          <label name="age" class="row"> 27 anos </label>
         </div>
         <div class="fiter">
           <div class="contact personal-box">
-            <h2> Contato </h2>
+            <h2 name="contact"> Contato </h2>
             <div class="personal-box-content">
               <hr>
               <label>
                 <img src="images/phone-solid.svg" />
-                <label class="only-print">Telefone: </label>
+                <label name="phone" class="only-print">Telefone: </label>
                 <span>+55 (11) 99795-3111</span>
               </label>
               <label>
                 <img src="images/map-marker-alt-solid.svg" />
-                <label class="only-print">Endereço: </label>
+                <label name="address" class="only-print">Endereço: </label>
                 <span>Pinheiros - SP</span>
               </label>
               <label>
@@ -53,22 +56,22 @@
             </div>
           </div>
           <div class="contact personal-box">
-            <h2> Habilidades </h2>
+            <h2 name="skills"> Habilidades </h2>
             <div class="personal-box-content">
               <hr>
-              <label>Programação</label>
+              <label name="programming">Programação</label>
               <div class="bar-back">
                 <div class="bar-front" style="width: 90%;"></div>
               </div>
-              <label>Modelagem</label>
+              <label name="modeling">Modelagem</label>
               <div class="bar-back">
                 <div class="bar-front" style="width: 70%;"></div>
               </div>
-              <label>Documentação</label>
+              <label name="documentation">Documentação</label>
               <div class="bar-back">
                 <div class="bar-front" style="width: 60%;"></div>
               </div>
-              <label>Arquitetura</label>
+              <label name="architecture">Arquitetura</label>
               <div class="bar-back">
                 <div class="bar-front" style="width: 60%;"></div>
               </div>
@@ -79,29 +82,40 @@
       </div>
       <div class="professional">
         <div class="professional-box">
-          <h1> Perfil </h1>
+          <h1 name="profile"> Perfil </h1>
           <hr>
-          <label>
+          <label name="profileDescription">
             Habituado a desenvolver com precisão os softwares documentados, 
             possuo criatividade e experiência para construir aplicações com a intenção de, 
-            prevenir excesso de manutenção, e fornecer agilidade no processo de desenvolvimento, 
-            com ferramentas como lint e task runners. Apto ao uso da metodologia SCRUM para melhor 
+            prevenir excesso de manutenção, e fornecer agilidade no processo de desenvolvimento. Apto ao uso de metodologias ágeis para melhor 
             eficácia na agilidade, e melhor entendimento sobre os processos para que novas e melhores 
             soluções possam ser descobertas a tempo. Sei como projetar aplicações que demandam um número 
             elevado de requisições e serviços, e mante-las fortemente resilientes e disponíveis.
           </label>
         </div>
         <div class="professional-box">
-          <h1> Experiência </h1>
+          <h1 name="experience"> Experiência </h1>
           <hr>
           <div class="professional-itens">
             <div class="item-content">
-              <h2>Engenheiro de Software</h2>
+              <h2 name="occupation7">Engenheiro de Software Sênior</h2>
+              <label>bem.care</label>
+            </div>
+            <section>2020/atual</section>
+          </div>
+          <div name="exp7" class="professional-description">
+            Sou responsável pela criação de novas features para o sistema da bem.care, utilizando a stack JS, 
+            com NodeJS, GraphQL, e SQL no backend, estruturado com API individuais para cada serviço, utilizando NestJS 
+            como framework. E no frontend, utilizamos React através do framework NextJS.
+          </div>
+          <div class="professional-itens">
+            <div class="item-content">
+              <h2 name="occupation6">Engenheiro de Software</h2>
               <label>BTime</label>
             </div>
-            <section>2019/atual</section>
+            <section>2019/2020</section>
           </div>
-          <div class="professional-description">
+          <div name="exp6" class="professional-description">
             A BTime oferece serviços focados em gerenciamento de equipes de campo, basicamente, uma 
             plataforma de checklist.
             No back end utilizamos a arquitetura de micro-serviços, cada serviço se comunicava com outro via seneca, 
@@ -113,23 +127,23 @@
           </div>
           <div class="professional-itens">
             <div class="item-content">
-              <h2>Engenheiro de Software</h2>
+              <h2 name="occupation5">Engenheiro de Software</h2>
               <label>Interaxa</label>
             </div>
             <section>2018/2019</section>
           </div>
-          <div class="professional-description">Atividades: Atuo no projeto EPICALL, que visa oferecer 
+          <div name="exp5" class="professional-description">Atividades: Atuo no projeto EPICALL, que visa oferecer 
             ao cliente uma plataforma completa de comunicação, com recursos de telefonia (ligação de áudio via SIP), conferências e chat em tempo real, 
             agendamento de conferências e outros recursos customizados. Utilizamos Node no backend, Angular 6 e React para o frontend.
           </div>
           <div class="professional-itens">
             <div class="item-content">
-              <h2>Engenheiro de Software</h2>
+              <h2 name="occupation4">Engenheiro de Software</h2>
               <label>Zater Capital</label>
             </div>
             <section>2017/2018</section>
           </div>
-          <div class="professional-description">Atividades: Criamos uma exchange de criptomoedas, onde as transações foram feitas utilizando serviços da 
+          <div name="exp4" class="professional-description">Atividades: Criamos uma exchange de criptomoedas, onde as transações foram feitas utilizando serviços da 
             API BlockIO, que fornece a geração de carteiras virtuais, validação de transações e confirmações de transações já que esta, utiliza 
             o modelo BLOCKCHAIN de validação. Como a necessidade da regra de negócio exigia uma aplicação real-time, utilizamos a stack NodeJS junto ao 
             banco de dados Firebase, pois estes possuem características asíncronas que nos permite uma conexão não bloqueante. Para fins de produtividade, 
@@ -138,12 +152,12 @@
           </div>
           <div class="professional-itens">
             <div class="item-content">
-              <h2>Desenvolvedor Back-End</h2>
+              <h2 name="occupation3">Desenvolvedor Back-End</h2>
               <label>Avanade</label>
             </div>
             <section>2017/2017</section>
           </div>
-          <div class="professional-description">Atividades:  Estamos desenvolvendo um projeto de beckend de canais, criando uma arquitetura em 
+          <div name="exp3" class="professional-description">Atividades:  Estamos desenvolvendo um projeto de beckend de canais, criando uma arquitetura em 
             Node.js, pois a aplicação atual tem problemas com disponibilidade e desempenho. A linguagem de 
             programação usada é o TypeScript, e há muitas bibliotecas que estamos usando para acelerar o 
             processo de desenvolvimento, como gulp.js (task runner), eslint, e etc. Para garantir uma 
@@ -156,7 +170,7 @@
             de dados no servidor.</div>
           <div class="professional-itens">
             <div class="item-content">
-              <h2>Consultor Sharepoint</h2>
+              <h2 name="occupation2">Consultor Sharepoint</h2>
               <label>DoneIT</label>
             </div>
             <section>2015/2016</section>
@@ -170,25 +184,25 @@
           </div>
           <div class="professional-itens">
             <div class="item-content">
-              <h2>Desenvolvedor Web</h2>
+              <h2 name="occupation1">Desenvolvedor Web</h2>
               <label>BijaGAM</label>
             </div>
             <section>2012/2013</section>
           </div>
         </div>
         <div class="professional-box">
-          <h1> Formação </h1>
+          <h1 name="education"> Formação </h1>
           <hr>
           <div class="professional-itens">
             <div class="item-content">
-              <h2>Ciência da Computação</h2>
-              <label>Universidade Anhembi Morumbi</label>
+              <h2 name="course">Ciência da Computação</h2>
+              <label name="college">Universidade Anhembi Morumbi</label>
             </div>
-            <section>Formado em 2016</section>
+            <section name="courseFinished">Formado em 2016</section>
           </div>
         </div>
         <div class="professional-box">
-          <h1> Tecnologias </h1>
+          <h1 name="techs"> Tecnologias </h1>
           <hr>
           <div class="techs">
             <div class="techs-filter">
@@ -207,27 +221,15 @@
                   </div>
                 </div>
                 <div class="techs-item">
-                  <label> Python </label>
+                  <label> GraphQL </label>
                   <div class="bar-back-dark">
-                    <div class="bar-front-dark" style="width: 33%;"></div>
+                    <div class="bar-front-dark" style="width: 60%;"></div>
                   </div>
                 </div>
                 <div class="techs-item">
                   <label> NestJS </label>
                   <div class="bar-back-dark">
                     <div class="bar-front-dark" style="width: 70%;"></div>
-                  </div>
-                </div>
-                <div class="techs-item">
-                  <label> Loopback </label>
-                  <div class="bar-back-dark">
-                    <div class="bar-front-dark" style="width: 60%;"></div>
-                  </div>
-                </div>
-                <div class="techs-item">
-                  <label> Firebase </label>
-                  <div class="bar-back-dark">
-                    <div class="bar-front-dark" style="width: 60%;"></div>
                   </div>
                 </div>
                 <div class="techs-item">
@@ -245,7 +247,7 @@
                 <div class="techs-item">
                   <label> MySQL </label>
                   <div class="bar-back-dark">
-                    <div class="bar-front-dark" style="width: 50%;"></div>
+                    <div class="bar-front-dark" style="width: 60%;"></div>
                   </div>
                 </div>
                 <div class="techs-item">
@@ -271,27 +273,15 @@
                   </div>
                 </div>
                 <div class="techs-item">
-                  <label> Bootstrap </label>
-                  <div class="bar-back-dark">
-                    <div class="bar-front-dark" style="width: 70%;"></div>
-                  </div>
-                </div>
-                <div class="techs-item">
                   <label> Material UI </label>
                   <div class="bar-back-dark">
-                    <div class="bar-front-dark" style="width: 60%;"></div>
-                  </div>
-                </div>
-                <div class="techs-item">
-                  <label> Angular 1 </label>
-                  <div class="bar-back-dark">
-                    <div class="bar-front-dark" style="width: 70%;"></div>
+                    <div class="bar-front-dark" style="width: 75%;"></div>
                   </div>
                 </div>
                 <div class="techs-item">
                   <label> Angular >= 2 </label>
                   <div class="bar-back-dark">
-                    <div class="bar-front-dark" style="width: 80%;"></div>
+                    <div class="bar-front-dark" style="width: 70%;"></div>
                   </div>
                 </div>
                 <div class="techs-item">
@@ -304,14 +294,14 @@
           </div>
         </div>
         <div class="professional-box">
-          <h1> Linguas </h1>
+          <h1 name="languages"> Linguas </h1>
           <hr>
           <div class="professional-itens">
             <div class="item-content">
-              <h2> Inglês </h2>
+              <h2 name="english"> Inglês </h2>
               <label>Wizard</label>
             </div>
-            <section>Avançado</section>
+            <section name="advanced">Avançado</section>
           </div>
         </div>
       </div>
