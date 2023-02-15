@@ -2,7 +2,7 @@
   window.langs = window.langs || {}
   window.langs.en = {
     occupation: 'Software Engineer',
-    age: '27 years old',
+    age: '30 years old',
     contact: 'Contact',
     phone: 'Phone: ',
     address: 'Address: ',
