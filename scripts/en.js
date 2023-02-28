@@ -20,7 +20,10 @@
     solutions can be discovered in time. I know how to design applications that require a number
     high number of requests and services, and keep them highly resilient and available.`,
     experience: 'Experience',
-    occupation6: 'Software Engineer',
+    occupation7: 'Senior Full Stack',
+    exp7: `I am responsible for creating new features for the bem.care system, using the JS stack, with NodeJS, GraphQL, and SQL in the backend, structured with individual APIs for each service, using NestJS as a framework. And on the frontend, we use React through the NextJS framework.
+     I helped to create the entire financial system of the company, creating a channel where communication with old and legacy information could be better understood. Bemcare being a healthcare company, I was also part of the development of several business rules that connected companies (costumers) with their employees and doctors.`,
+    occupation6: 'Middle Full Stack',
     exp6: `BTime offers services focused on managing field teams, basically a
     checklist platform.
     In the back end we used the micro-services architecture, each service communicated with the other via seneca,
@@ -29,18 +32,18 @@
     To maintain backend availability, these services were managed by containers within Rancher.
     On the front end, we use Angular 8, with the Observable pattern to take advantage of its streaming characteristics
     to keep checklists updated in real time.`,
-    occupation5: 'Software Engineer',
+    occupation5: 'Middle Full Stack',
     exp5: `Activities: I work in the EPICALL project, which aims to offer
     to the customer a complete communication platform, with telephony resources (audio connection via SIP), conferences and chat in real time,
     conference scheduling and other custom features. We use Node on the backend, Angular 6 and React for the frontend.`,
-    occupation4: 'Software Engineer',
+    occupation4: 'Junior Back-end Developer',
     exp4: `Activities: We created a cryptocurrency exchange, where transactions were made using services from
     BlockIO API, which provides virtual wallet generation, transaction validation and transaction confirmations as it uses
     the validation BLOCKCHAIN ​​model. As the need for the business rule required a real-time application, we used the NodeJS stack alongside the
     Firebase database, as these have asynchronous characteristics that allow us a non-blocking connection. For productivity purposes,
     we opted for the Loopback 3 framework for exposing services via Rest, as it was a product that demonstrated to have advantages
     in relation to this point.`,
-    occupation3: 'Desenvolvedor Back-End',
+    occupation3: 'Junior Back-End Developer',
     exp3: `Activities: We are developing a backend to condensate all the santander bank's channels responsible to client handle it's account, creating an architecture in
     Node.js as the current application has issues with availability and performance. the language of
     programming used is TypeScript, and there are many libraries that we are using to speed up the
