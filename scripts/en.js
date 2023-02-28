@@ -17,8 +17,8 @@
     prevent over-maintenance, and provide agility in the development process,
     with tools like lint and task runners. Able to use the SCRUM methodology to improve
     effectiveness in agility, and better understanding of the processes so that new and better
-    solutions can be discovered in time. I know how to design applications that require a number
-    high number of requests and services, and keep them highly resilient and available.`,
+    solutions can be discovered in time. I know how to design applications that requires a
+ lot of requests, and keep them highly resilient and available.`,
     experience: 'Experience',
     occupation7: 'Senior Full Stack',
     exp7: `I am responsible for creating new features for the bem.care system, using the JS stack, with NodeJS, GraphQL, and SQL in the backend, structured with individual APIs for each service, using NestJS as a framework. And on the frontend, we use React through the NextJS framework.
