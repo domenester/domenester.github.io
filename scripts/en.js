@@ -23,7 +23,7 @@
     occupation7: 'Senior Full Stack',
     exp7: `I am responsible for creating new features for the bem.care system, using the JS stack, with NodeJS, GraphQL, and SQL in the backend, structured with individual APIs for each service, using NestJS as a framework. And on the frontend, we use React through the NextJS framework.
      I helped to create the entire financial system of the company, creating a channel where communication with old and legacy information could be better understood. Bemcare being a healthcare company, I was also part of the development of several business rules that connected companies (costumers) with their employees and doctors.`,
-    occupation6: 'Middle Full Stack',
+    occupation6: 'Senior Full Stack',
     exp6: `BTime offers services focused on managing field teams, basically a
     checklist platform.
     In the back end we used the micro-services architecture, each service communicated with the other via seneca,
