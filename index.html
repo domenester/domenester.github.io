@@ -19,7 +19,7 @@
         <div class="description">
           <h1 class="row"> Diogo Domene </h1>
           <label name="occupation" class="row"> Engenheiro de Software </label>
-          <label name="age" class="row"> 30 anos </label>
+          <label name="age" class="row"> 32 anos </label>
         </div>
         <div class="fiter">
           <div class="contact personal-box">
@@ -29,12 +29,12 @@
               <label>
                 <img src="images/phone-solid.svg" />
                 <label name="phone" class="only-print">Telefone:</label>
-                <span>+55 (11) 99795-3111</span>
+                <span name="phoneNumber">+55 (11) 99795-3111</span>
               </label>
               <label>
                 <img src="images/map-marker-alt-solid.svg" />
                 <label name="address" class="only-print">Endereço: </label>
-                <span>Pinheiros - SP</span>
+                <span name="addressValue">Pinheiros - SP</span>
               </label>
               <label>
                 <img src="images/envelope-solid.svg" />
@@ -96,6 +96,16 @@
         <div class="professional-box">
           <h1 name="experience"> Experiência </h1>
           <hr>
+          <div class="professional-itens">
+            <div class="item-content">
+              <h2 name="occupation8">Tech Lead</h2>
+              <label>HiSolver</label>
+            </div>
+            <section name="lastJobDate">2024/02</section>
+          </div>
+          <div name="exp8" class="professional-description">
+            Criei a infraestrutura do backend (Nodejs) na AWS para milhares de usuários com ECS, o ambiente está configurado para rodar dentro de um contêiner Docker, fiz todos os pipelines para construir e implantar o sistema com CI/CD. A Hisolver é uma plataforma com muitos recursos onde ajudei a desenvolver muitos deles, como mensagens de chat, "personas" baseadas em Inteligência Artificial (API OpenAI), manipução de arquivos e assim por diante. As tecnologias de desenvolvimento é uma mistura de Vue, Nodejs, Express, MongoDB. As atividades incluem: desenvolvimento, teste, revisões de código, infraestrutura (AWS).
+          </div>
           <div class="professional-itens">
             <div class="item-content">
               <h2 name="occupation7">Engenheiro de Software Sênior</h2>
@@ -310,15 +320,21 @@
                   </div>
                 </div>
                 <div class="techs-item">
-                  <label> Redux </label>
+                  <label> State Management </label>
                   <div class="bar-back-dark">
-                    <div class="bar-front-dark" style="width: 80%;"></div>
+                    <div class="bar-front-dark" style="width: 70%;"></div>
                   </div>
                 </div>
                 <div class="techs-item">
                   <label> NextJS </label>
                   <div class="bar-back-dark">
                     <div class="bar-front-dark" style="width: 80%;"></div>
+                  </div>
+                </div>
+                <div class="techs-item">
+                  <label> Vue </label>
+                  <div class="bar-back-dark">
+                    <div class="bar-front-dark" style="width: 60%;"></div>
                   </div>
                 </div>
             </div>
@@ -340,6 +356,9 @@
               <div class="techs-item">
                 <label> Bucket S3 </label>
               </div>
+              <div class="techs-item">
+                <label> ECS </label>
+              </div>
           </div>
           </div>
         </div>
@@ -352,6 +371,13 @@
               <label>Wizard</label>
             </div>
             <section name="advanced">Avançado</section>
+          </div>
+          <div class="professional-itens">
+            <div class="item-content">
+              <h2 name="portuguese"> Português </h2>
+              <label name="native">Nativo</label>
+            </div>
+            <section name="native">Nativo</section>
           </div>
         </div>
       </div>

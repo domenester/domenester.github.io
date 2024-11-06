@@ -2,24 +2,28 @@
   window.langs = window.langs || {}
   window.langs.pt = {
     occupation: 'Engenheiro de Software',
-    age: '30 anos',
+    age: '32 anos',
     contact: 'Contato',
     phone: 'Telefone: ',
+    phoneNumber: '+55 (11) 99795-3111',
     address: 'Endereço: ',
+    addressValue: 'SP - Pinheiros',
     skills: 'Habilidades',
     programming: 'Programação',
     modeling: 'Modelagem',
     documentation: 'Documentação',
     architecture: 'Arquitetura',
     profile: 'Perfil',
-    profileDescription: `Habituado a desenvolver com precisão os softwares documentados, 
-    possuo criatividade e experiência para construir aplicações com a intenção de, 
-    prevenir excesso de manutenção, e fornecer agilidade no processo de desenvolvimento, 
-    com ferramentas como lint e task runners. Apto ao uso da metodologia SCRUM para melhor 
-    eficácia na agilidade, e melhor entendimento sobre os processos para que novas e melhores 
-    soluções possam ser descobertas a tempo. Sei como projetar aplicações que demandam um número 
-    elevado de requisições e serviços, e mante-las fortemente resilientes e disponíveis.`,
+    lastJobDate: 'Desde 2024/02',
+    profileDescription: `Desenvolvedor JavaScript sênior com mais de 8 anos de experiência em criar e escalar aplicações web modernas e robustas, utilizando Node.js, React, e frameworks como NestJS e Next.js. Hábil em projetar e implementar arquiteturas resilientes e escaláveis, com expertise na otimização de performance, automação de processos (linting, CI/CD) e integração de APIs. Comprometido com a inovação e a criação de soluções eficientes que reduzem a necessidade de manutenção e impulsionam o crescimento do produto.`,
     experience: 'Experiência',
+    occupation8: 'Tech Lead',
+    exp8: `Criei a infraestrutura do backend (Nodejs) na AWS para milhares de usuários com ECS, o ambiente está configurado para rodar dentro de um contêiner Docker, fiz todos os pipelines para construir e implantar o sistema com CI/CD. A Hisolver é uma plataforma com muitos recursos onde ajudei a desenvolver muitos deles, como mensagens de chat, "personas" baseadas em Inteligência Artificial (API OpenAI), manipução de arquivos e assim por diante. As tecnologias de desenvolvimento é uma mistura de Vue, Nodejs, Express, MongoDB. As atividades incluem: desenvolvimento, teste, revisões de código, infraestrutura (AWS).`,
+    occupation7: 'Engenheiro de Software Sênior',
+    exp7: `Sou responsável pela criação de novas features para o sistema da bem.care, utilizando a stack JS, 
+    com NodeJS, GraphQL, e SQL no backend, estruturado com API individuais para cada serviço, utilizando NestJS 
+    como framework. E no frontend, utilizamos React através do framework NextJS.
+    Eu ajudei a criar todo o sistema financeiro da empresa, criando um canal onde a comunicação com as informações antigas e legadas  pudessem ser melhor entendidas. A bemcare sendo uma empresa de saúde, também fiz parte do desenvolvimento de várias regras de negócio que conectavam as empresas com funcionários e médicos.`,
     occupation6: 'Engenheiro de Software',
     exp6: `A BTime oferece serviços focados em gerenciamento de equipes de campo, basicamente, uma 
     plataforma de checklist.
@@ -61,6 +65,8 @@
     techs: 'Tecnologias',
     languages: 'Linguas',
     english: 'Inglês',
-    advanced: 'Avançado'
+    advanced: 'Avançado',
+    native: 'Nativo',
+    portuguese: 'Português'
   }
 })()

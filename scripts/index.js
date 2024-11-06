@@ -7,7 +7,7 @@ function loadContent () {
 
 function getLang () {
   var lang = window.location.search.split('=')[1]
-  if (!lang || !['pt', 'en'].includes(lang)) return 'pt'
+  if (!lang || !['pt', 'en'].includes(lang)) return 'en'
   return lang
 }
 

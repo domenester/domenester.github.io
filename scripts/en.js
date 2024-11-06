@@ -2,24 +2,23 @@
   window.langs = window.langs || {}
   window.langs.en = {
     occupation: 'Software Engineer',
-    age: '30 years old',
+    age: '32 years old',
     contact: 'Contact',
     phone: 'Phone: ',
+    phoneNumber: '+61 424 835 154',
     address: 'Address: ',
+    addressValue: 'NSW - Sydney',
     skills: 'Skills',
     programming: 'Programming',
     modeling: 'Modeling',
     documentation: 'Documentation',
     architecture: 'Architecture',
     profile: 'Profile',
-    profileDescription: `I know how accurately developing documented software,
-    I have the creativity and experience to build applications with the intention of,
-    prevent over-maintenance, and provide agility in the development process,
-    with tools like lint and task runners. Able to use the SCRUM methodology to improve
-    effectiveness in agility, and better understanding of the processes so that new and better
-    solutions can be discovered in time. I know how to design applications that requires a
- lot of requests, and keep them highly resilient and available.`,
+    lastJobDate: 'Since 2024/02',
+    profileDescription: `Senior JavaScript developer with over 8 years of experience in creating and scaling modern, robust web applications using Node.js, React, and frameworks like NestJS and Next.js. Skilled in designing and implementing resilient and scalable architectures, with expertise in performance optimization, process automation (linting, CI/CD), and API integration. Committed to innovation and building efficient solutions that reduce maintenance needs and drive product growth.`,
     experience: 'Experience',
+    occupation8: 'Tech Lead',
+    exp8: `I created the backend infrastructure (Nodejs) on AWS for thousands of users with ECS, the environment is configured to run inside a Docker container, I made all the pipelines to build and deploy the system with CI/CD. The Hisolver is a platform with many resources where I helped to develop many of them, such as chat messages, "personas" based on Artificial Intelligence (API OpenAI), file manipulation, and so on. The development technologies are a mix of Vue, Nodejs, Express, MongoDB. The activities include: development, testing, code reviews, infrastructure (AWS).`,
     occupation7: 'Senior Full Stack',
     exp7: `I am responsible for creating new features for the bem.care system, using the JS stack, with NodeJS, GraphQL, and SQL in the backend, structured with individual APIs for each service, using NestJS as a framework. And on the frontend, we use React through the NextJS framework.
      I helped to create the entire financial system of the company, creating a channel where communication with old and legacy information could be better understood. Bemcare being a healthcare company, I was also part of the development of several business rules that connected companies (costumers) with their employees and doctors.`,
@@ -64,6 +63,8 @@
     techs: 'Technology',
     languages: 'Language',
     english: 'English',
-    advanced: 'Advanced'
+    advanced: 'Advanced',
+    native: 'Native',
+    portuguese: 'Portuguese'
   }
 })()
