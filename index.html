@@ -12,372 +12,103 @@
   </head>
   <body onload="loadContent()">
     <div class="content">
-      <div class="personal">
-        <div class="selfie-content no-print">
-          <img class="selfie" src="images/profile-pic.jpg"/>
+      <div id="numbers"></div>
+      <div class="container">
+        <div class="cv">
+          <div class="cv-signal"> < </div>
+          <div class="cv-signal-text"> CV </div>
+          <div class="cv-signal"> > </div>
         </div>
-        <div class="description">
-          <h1 class="row"> Diogo Domene </h1>
-          <label name="occupation" class="row"> Engenheiro de Software </label>
-          <label name="age" class="row"> 32 anos </label>
-        </div>
-        <div class="fiter">
-          <div class="contact personal-box">
-            <h2 name="contact"> Contato </h2>
-            <div class="personal-box-content">
-              <hr>
-              <label>
-                <img src="images/phone-solid.svg" />
-                <label name="phone" class="only-print">Telefone:</label>
-                <span name="phoneNumber">+55 (11) 99795-3111</span>
-              </label>
-              <label>
-                <img src="images/map-marker-alt-solid.svg" />
-                <label name="address" class="only-print">Endereço: </label>
-                <span name="addressValue">Pinheiros - SP</span>
-              </label>
-              <label>
-                <img src="images/envelope-solid.svg" />
-                <label class="only-print">Email: </label>
-                <span>diogodomene@gmail.com</span>
-              </label>
-              <label>
-                <img src="images/linkedin-in-brands.svg" />
-                <a href="https://www.linkedin.com/in/diogodomene" target="_blank">
-                  <label class="only-print">Linkedin: </label> /diogodomene
-                </a>
-              </label>
-              <label>
-                <img src="images/github-brands.svg" />
-                <a href="https://www.github.com/domenester" target="_blank">
-                  <label class="only-print">Github: </label> /domenester
-                </a>
-              </label>
-            </div>
+        <h1 class="row" style="margin-bottom: 0px;">Diogo Domene</h1>
+        <h3 class="row" style="margin-top: 2px; margin-left: 10px;">(Full Stack Developer)</h3>
+
+        <div class="container-margin">
+          <div class="header">
+            <div class="header-slash">/</div>
+            <div class="header-text" name="summary"></div>
           </div>
-          <div class="contact personal-box">
-            <h2 name="skills"> Habilidades </h2>
-            <div class="personal-box-content">
-              <hr>
-              <label name="programming">Programação</label>
-              <div class="bar-back">
-                <div class="bar-front" style="width: 90%;"></div>
+          <div name="profileDescription"></div>
+          <div class="row page-container">
+            <div class="left-page">
+              <div class="header">
+                <div class="header-slash">/</div>
+                <div class="header-text" name="experience"></div>
               </div>
-              <label name="modeling">Modelagem</label>
-              <div class="bar-back">
-                <div class="bar-front" style="width: 70%;"></div>
+
+              <div class="occupation" name="occupation8"></div>
+              <div class="row flex space-between company-date">
+                <div class="company">HiSolver</div>
+                <div class="date" name="lastJobDate"></div>
               </div>
-              <label name="documentation">Documentação</label>
-              <div class="bar-back">
-                <div class="bar-front" style="width: 60%;"></div>
+              <div class="experience" name="exp8"></div>
+
+              <div class="occupation" name="occupation7"></div>
+              <div class="row flex space-between company-date">
+                <div class="company">bem.care</div>
+                <div class="date">2020/10 - 2023/01</div>
               </div>
-              <label name="architecture">Arquitetura</label>
-              <div class="bar-back">
-                <div class="bar-front" style="width: 60%;"></div>
+              <div class="experience" name="exp7"></div>
+
+              <div class="occupation" name="occupation6"></div>
+              <div class="row flex space-between company-date">
+                <div class="company">BTime</div>
+                <div class="date">2019 - 2020</div>
+              </div>
+              <div class="experience" name="exp6"></div>
+
+              <div class="occupation" name="occupation5"></div>
+              <div class="row flex space-between company-date">
+                <div class="company">Interaxa</div>
+                <div class="date">2018 - 2019</div>
+              </div>
+              <div class="experience" name="exp5"></div>
+
+              <div class="occupation" name="occupation4"></div>
+              <div class="row flex space-between company-date">
+                <div class="company">Zater Capital</div>
+                <div class="date">2017 - 2018</div>
+              </div>
+              <div class="experience" name="exp4"></div>
+
+              <div class="occupation" name="occupation3"></div>
+              <div class="row flex space-between company-date">
+                <div class="company">Avanade</div>
+                <div class="date">2017 - 2017</div>
+              </div>
+              <div class="experience" name="exp3"></div>
+            </div>
+            <div class="right-page">
+              <div class="header">
+                <div class="header-slash">/</div>
+                <div class="header-text" name="skills"></div>
+              </div>
+              <div class="skills">
+                <div class="skill-item">
+                  <section class="skill-item-title" name="frontend"></section>
+                  <div name="frontendValue"></div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-item-title" name="backend"></div>
+                  <div name="backendValue"></div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-item-title" name="database"></div>
+                  <div name="databaseValue"></div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-item-title" name="devops"></div>
+                  <div name="devopsValue"></div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-item-title" name="tests"></div>
+                  <div name="testsValue"></div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-item-title" name="agile"></div>
+                  <div name="agileValue"></div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-        
-      </div>
-      <div class="professional">
-        <div class="professional-box">
-          <h1 name="profile"> Perfil </h1>
-          <hr>
-          <label name="profileDescription">
-            Habituado a desenvolver com precisão os softwares documentados, 
-            possuo criatividade e experiência para construir aplicações com a intenção de, 
-            prevenir excesso de manutenção, e fornecer agilidade no processo de desenvolvimento. Apto ao uso de metodologias ágeis para melhor 
-            eficácia na agilidade, e melhor entendimento sobre os processos para que novas e melhores 
-            soluções possam ser descobertas a tempo. Sei como projetar aplicações que demandam um número 
-            elevado de requisições e serviços, e mante-las fortemente resilientes e disponíveis.
-          </label>
-        </div>
-        <div class="professional-box">
-          <h1 name="experience"> Experiência </h1>
-          <hr>
-          <div class="professional-itens">
-            <div class="item-content">
-              <h2 name="occupation8">Tech Lead</h2>
-              <label>HiSolver</label>
-            </div>
-            <section name="lastJobDate">2024/02</section>
-          </div>
-          <div name="exp8" class="professional-description">
-            Criei a infraestrutura do backend (Nodejs) na AWS para milhares de usuários com ECS, o ambiente está configurado para rodar dentro de um contêiner Docker, fiz todos os pipelines para construir e implantar o sistema com CI/CD. A Hisolver é uma plataforma com muitos recursos onde ajudei a desenvolver muitos deles, como mensagens de chat, "personas" baseadas em Inteligência Artificial (API OpenAI), manipução de arquivos e assim por diante. As tecnologias de desenvolvimento é uma mistura de Vue, Nodejs, Express, MongoDB. As atividades incluem: desenvolvimento, teste, revisões de código, infraestrutura (AWS).
-          </div>
-          <div class="professional-itens">
-            <div class="item-content">
-              <h2 name="occupation7">Engenheiro de Software Sênior</h2>
-              <label>bem.care</label>
-            </div>
-            <section>2020/10 - 2023/01</section>
-          </div>
-          <div name="exp7" class="professional-description">
-            Sou responsável pela criação de novas features para o sistema da bem.care, utilizando a stack JS, 
-            com NodeJS, GraphQL, e SQL no backend, estruturado com API individuais para cada serviço, utilizando NestJS 
-            como framework. E no frontend, utilizamos React através do framework NextJS.
-            Eu ajudei a criar todo o sistema financeiro da empresa, criando um canal onde a comunicação com as informações antigas e legadas  pudessem ser melhor entendidas. A bemcare sendo uma empresa de saúde, também fiz parte do desenvolvimento de várias regras de negócio que conectavam as empresas com funcionários e médicos.
-          </div>
-          <div class="professional-itens">
-            <div class="item-content">
-              <h2 name="occupation6">Engenheiro de Software</h2>
-              <label>BTime</label>
-            </div>
-            <section>2019 - 2020</section>
-          </div>
-          <div name="exp6" class="professional-description">
-            A BTime oferece serviços focados em gerenciamento de equipes de campo, basicamente, uma 
-            plataforma de checklist.
-            No back end utilizamos a arquitetura de micro-serviços, cada serviço se comunicava com outro via seneca, 
-            um pacote específico para comunicação de micro-serviços em Node.js.
-            A persistência dos dados eram feitas através do PostgreSQL, tendo o Redis como recurso de cache.
-            Para manter a disponibilidade do back end, esses serviços eram gerenciados por containers dentro do Rancher.
-            No front end, utilizamos Angular 8, com o pattern Observable para usufruir de suas características de streaming 
-            para manter os checklists atualizados em tempo real.
-          </div>
-          <div class="professional-itens">
-            <div class="item-content">
-              <h2 name="occupation5">Engenheiro de Software</h2>
-              <label>Interaxa</label>
-            </div>
-            <section>2018 - 2019</section>
-          </div>
-          <div name="exp5" class="professional-description">Atividades: Atuo no projeto EPICALL, que visa oferecer 
-            ao cliente uma plataforma completa de comunicação, com recursos de telefonia (ligação de áudio via SIP), conferências e chat em tempo real, 
-            agendamento de conferências e outros recursos customizados. Utilizamos Node no backend, Angular 6 e React para o frontend.
-          </div>
-          <div class="professional-itens">
-            <div class="item-content">
-              <h2 name="occupation4">Engenheiro de Software</h2>
-              <label>Zater Capital</label>
-            </div>
-            <section>2017 - 2018</section>
-          </div>
-          <div name="exp4" class="professional-description">Atividades: Criamos uma exchange de criptomoedas, onde as transações foram feitas utilizando serviços da 
-            API BlockIO, que fornece a geração de carteiras virtuais, validação de transações e confirmações de transações já que esta, utiliza 
-            o modelo BLOCKCHAIN de validação. Como a necessidade da regra de negócio exigia uma aplicação real-time, utilizamos a stack NodeJS junto ao 
-            banco de dados Firebase, pois estes possuem características asíncronas que nos permite uma conexão não bloqueante. Para fins de produtividade, 
-            optamos o framework Loopback 3 para a exposição dos serviços via Rest, já que foi um produto que se demonstrou, na época, possuir vantagens 
-            em relação à esse ponto.
-          </div>
-          <div class="professional-itens">
-            <div class="item-content">
-              <h2 name="occupation3">Desenvolvedor Back-End</h2>
-              <label>Avanade</label>
-            </div>
-            <section>2017 - 2017</section>
-          </div>
-          <div name="exp3" class="professional-description">Atividades:  Estamos desenvolvendo um projeto de beckend de canais, criando uma arquitetura em 
-            Node.js, pois a aplicação atual tem problemas com disponibilidade e desempenho. A linguagem de 
-            programação usada é o TypeScript, e há muitas bibliotecas que estamos usando para acelerar o 
-            processo de desenvolvimento, como gulp.js (task runner), eslint, e etc. Para garantir uma 
-            disponibilidade efetiva, os servidores node.js são implantados em um container docker, e o Kubernets 
-            (gerenciador docker), faz o trabalho de gerenciar o docker, implantando rapidamente um novo container 
-            se algo der errado com o atual.
-            Todas as funcionalidades / API possuem um teste unitário, esses testes são feitos com mocha.js e chai.
-            Para fins de desempenho, utilizamos o redis, um armazenamento de estrutura de dados em memória, 
-            usado como banco de dados local, o que elimina a necessidade de comunicação contínua com o banco 
-            de dados no servidor.</div>
-          <div class="professional-itens">
-            <div class="item-content">
-              <h2 name="occupation2">Consultor Sharepoint</h2>
-              <label>DoneIT</label>
-            </div>
-            <section>2015 - 2016</section>
-          </div>
-          <div class="professional-itens">
-            <div class="item-content">
-              <h2>Free Lancer</h2>
-              <label>(Autônomo)</label>
-            </div>
-            <section>2014 - 2015</section>
-          </div>
-          <div class="professional-itens">
-            <div class="item-content">
-              <h2 name="occupation1">Desenvolvedor Web</h2>
-              <label>BijaGAM</label>
-            </div>
-            <section>2012/2013</section>
-          </div>
-        </div>
-        <div class="professional-box">
-          <h1 name="education"> Formação </h1>
-          <hr>
-          <div class="professional-itens">
-            <div class="item-content">
-              <h2 name="course">Ciência da Computação</h2>
-              <label name="college">Universidade Anhembi Morumbi</label>
-            </div>
-            <section name="courseFinished">Formado em 2016</section>
-          </div>
-        </div>
-        <div class="professional-box">
-          <h1 name="techs"> Tecnologias </h1>
-          <hr>
-          <div class="techs">
-            <div class="techs-filter">
-                <h3> Backend </h3>
-                <div class="coupling"></div>
-                <div class="techs-item">
-                  <label> Javascript </label>
-                  <div class="bar-back-dark">
-                    <div class="bar-front-dark" style="width: 80%;"></div>
-                  </div>
-                </div>
-                <div class="techs-item">
-                  <label> NodeJS </label>
-                  <div class="bar-back-dark">
-                    <div class="bar-front-dark" style="width: 80%;"></div>
-                  </div>
-                </div>
-                <div class="techs-item">
-                  <label> GraphQL </label>
-                  <div class="bar-back-dark">
-                    <div class="bar-front-dark" style="width: 60%;"></div>
-                  </div>
-                </div>
-                <div class="techs-item">
-                  <label> NestJS </label>
-                  <div class="bar-back-dark">
-                    <div class="bar-front-dark" style="width: 70%;"></div>
-                  </div>
-                </div>
-                <div class="techs-item">
-                  <label> Docker </label>
-                  <div class="bar-back-dark">
-                    <div class="bar-front-dark" style="width: 40%;"></div>
-                  </div>
-                </div>
-                <div class="techs-item">
-                  <label> MongoDB </label>
-                  <div class="bar-back-dark">
-                    <div class="bar-front-dark" style="width: 75%;"></div>
-                  </div>
-                </div>
-                <div class="techs-item">
-                  <label> MySQL </label>
-                  <div class="bar-back-dark">
-                    <div class="bar-front-dark" style="width: 60%;"></div>
-                  </div>
-                </div>
-                <div class="techs-item">
-                  <label> PostgreSQL </label>
-                  <div class="bar-back-dark">
-                    <div class="bar-front-dark" style="width: 70%;"></div>
-                  </div>
-                </div>
-                <div class="techs-item">
-                  <label> Sequelize </label>
-                  <div class="bar-back-dark">
-                    <div class="bar-front-dark" style="width: 50%;"></div>
-                  </div>
-                </div>
-                <div class="techs-item">
-                  <label> TypeORM </label>
-                  <div class="bar-back-dark">
-                    <div class="bar-front-dark" style="width: 60%;"></div>
-                  </div>
-                </div>
-                <div class="techs-item">
-                  <label> Prisma </label>
-                  <div class="bar-back-dark">
-                    <div class="bar-front-dark" style="width: 70%;"></div>
-                  </div>
-                </div>
-            </div>
-            <div class="techs-filter">
-                <h3> Frontend </h3>
-                <div class="coupling"></div>
-                <div class="techs-item">
-                  <label> HTML5 </label>
-                  <div class="bar-back-dark">
-                    <div class="bar-front-dark" style="width: 80%;"></div>
-                  </div>
-                </div>
-                <div class="techs-item">
-                  <label> CSS3 </label>
-                  <div class="bar-back-dark">
-                    <div class="bar-front-dark" style="width: 70%;"></div>
-                  </div>
-                </div>
-                <div class="techs-item">
-                  <label> Material UI </label>
-                  <div class="bar-back-dark">
-                    <div class="bar-front-dark" style="width: 75%;"></div>
-                  </div>
-                </div>
-                <div class="techs-item">
-                  <label> Angular >= 2 </label>
-                  <div class="bar-back-dark">
-                    <div class="bar-front-dark" style="width: 50%;"></div>
-                  </div>
-                </div>
-                <div class="techs-item">
-                  <label> React </label>
-                  <div class="bar-back-dark">
-                    <div class="bar-front-dark" style="width: 80%;"></div>
-                  </div>
-                </div>
-                <div class="techs-item">
-                  <label> State Management </label>
-                  <div class="bar-back-dark">
-                    <div class="bar-front-dark" style="width: 70%;"></div>
-                  </div>
-                </div>
-                <div class="techs-item">
-                  <label> NextJS </label>
-                  <div class="bar-back-dark">
-                    <div class="bar-front-dark" style="width: 80%;"></div>
-                  </div>
-                </div>
-                <div class="techs-item">
-                  <label> Vue </label>
-                  <div class="bar-back-dark">
-                    <div class="bar-front-dark" style="width: 60%;"></div>
-                  </div>
-                </div>
-            </div>
-            <div class="techs-filter-full">
-              <h3> AWS </h3>
-              <div class="coupling"></div>
-              <div class="techs-item">
-                <label> Lambda </label>
-              </div>
-              <div class="techs-item">
-                <label> Elastic Bean Stalk </label>
-              </div>
-              <div class="techs-item">
-                <label> Amplify </label>
-              </div>
-              <div class="techs-item">
-                <label> EC2 </label>
-              </div>
-              <div class="techs-item">
-                <label> Bucket S3 </label>
-              </div>
-              <div class="techs-item">
-                <label> ECS </label>
-              </div>
-          </div>
-          </div>
-        </div>
-        <div class="professional-box">
-          <h1 name="languages"> Linguas </h1>
-          <hr>
-          <div class="professional-itens">
-            <div class="item-content">
-              <h2 name="english"> Inglês </h2>
-              <label>Wizard</label>
-            </div>
-            <section name="advanced">Avançado</section>
-          </div>
-          <div class="professional-itens">
-            <div class="item-content">
-              <h2 name="portuguese"> Português </h2>
-              <label name="native">Nativo</label>
-            </div>
-            <section name="native">Nativo</section>
           </div>
         </div>
       </div>

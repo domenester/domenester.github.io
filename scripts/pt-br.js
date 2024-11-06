@@ -1,6 +1,14 @@
 (function() {
   window.langs = window.langs || {}
   window.langs.pt = {
+    summary: 'resumo',
+    experience: 'experiência profissional',
+    skills: 'habilidades',
+
+
+
+
+
     occupation: 'Engenheiro de Software',
     age: '32 anos',
     contact: 'Contato',
