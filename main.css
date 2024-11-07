@@ -48,6 +48,8 @@
   .print-column-right {
     margin-top: 30px;
   }
+
+  
 }
 
 a {
@@ -125,6 +127,7 @@ label {
 
 .container {
   padding-left: 10px;
+  width: 100%;
 }
 
 .container-margin {
@@ -282,5 +285,18 @@ label {
   }
   .page-container {
     display: block;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .cv {
+    justify-content: center;
+    padding-bottom: 0px;
+  }
+  .cv-container {
+    display: block;
+  }
+  .cv-title {
+    padding-top: 10px;
   }
 }
