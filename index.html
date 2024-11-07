@@ -12,15 +12,19 @@
   </head>
   <body onload="loadContent()">
     <div class="content">
-      <div id="numbers"></div>
+      <div class="no-print" id="numbers"></div>
       <div class="container">
-        <div class="cv">
-          <div class="cv-signal"> < </div>
-          <div class="cv-signal-text"> CV </div>
-          <div class="cv-signal"> > </div>
+        <div class="row flex space-between">
+          <div class="cv">
+            <div class="cv-signal"> < </div>
+            <div class="cv-signal-text"> CV </div>
+            <div class="cv-signal"> > </div>
+          </div>
+          <div class="cv-title">
+            <h1>Diogo Domene</h1>
+            <h3 class="yellow-strong" name="occupation"></h3>
+          </div>
         </div>
-        <h1 class="row" style="margin-bottom: 0px;">Diogo Domene</h1>
-        <h3 class="row" style="margin-top: 2px; margin-left: 10px;">(Full Stack Developer)</h3>
 
         <div class="container-margin">
           <div class="header">
@@ -78,34 +82,100 @@
               <div class="experience" name="exp3"></div>
             </div>
             <div class="right-page">
-              <div class="header">
-                <div class="header-slash">/</div>
-                <div class="header-text" name="skills"></div>
+              <div class="skill-container">
+                <div class="header">
+                  <div class="header-slash">/</div>
+                  <div class="header-text" name="skills"></div>
+                </div>
+                <div class="skills">
+                  <div class="skill-item">
+                    <div class="skill-item-title" name="frontend"></div>
+                    <div class="skill-item-value" name="frontendValue"></div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-item-title" name="backend"></div>
+                    <div class="skill-item-value" name="backendValue"></div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-item-title" name="database"></div>
+                    <div class="skill-item-value" name="databaseValue"></div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-item-title" name="devops"></div>
+                    <div class="skill-item-value" name="devopsValue"></div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-item-title" name="tests"></div>
+                    <div class="skill-item-value" name="testsValue"></div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-item-title" name="agile"></div>
+                    <div class="skill-item-value" name="agileValue"></div>
+                  </div>
+                </div>
               </div>
-              <div class="skills">
-                <div class="skill-item">
-                  <section class="skill-item-title" name="frontend"></section>
-                  <div name="frontendValue"></div>
+              <div class="education-container">
+                <div class="header">
+                  <div class="header-slash">/</div>
+                  <div class="header-text" name="education"></div>
                 </div>
-                <div class="skill-item">
-                  <div class="skill-item-title" name="backend"></div>
-                  <div name="backendValue"></div>
+                <div class="flex space-between">
+                  <div>
+                    <div class="course blue-strong" name="course"></div>
+                    <div class="college" name="college"></div>
+                  </div>
+                  <div class="courseFinished date" name="courseFinished"></div>
                 </div>
-                <div class="skill-item">
-                  <div class="skill-item-title" name="database"></div>
-                  <div name="databaseValue"></div>
+              </div>
+              <div class="contact-container">
+                <div class="header">
+                  <div class="header-slash">/</div>
+                  <div class="header-text" name="contact"></div>
                 </div>
-                <div class="skill-item">
-                  <div class="skill-item-title" name="devops"></div>
-                  <div name="devopsValue"></div>
+                <div class="personal-box-content">
+                  <label>
+                    <img class="no-print" src="images/phone-solid.svg" />
+                    <label name="phone" class="only-print contact-label">Telefone:</label>
+                    <span class="contact-value" name="phoneNumber">+55 (11) 99795-3111</span>
+                  </label>
+                  <label>
+                    <img class="no-print" src="images/map-marker-alt-solid.svg" />
+                    <label name="address" class="only-print contact-label">Endereço: </label>
+                    <span class="contact-value" name="addressValue">Pinheiros - SP</span>
+                  </label>
+                  <label>
+                    <img class="no-print" src="images/envelope-solid.svg" />
+                    <label name="email" class="only-print contact-label">Email: </label>
+                    <span class="contact-value" name="email">diogodomene@gmail.com</span>
+                  </label>
+                  <label>
+                    <img class="no-print" src="images/linkedin-in-brands.svg" />
+                    <a href="https://www.linkedin.com/in/diogodomene" target="_blank">
+                      <label name="linkedin" class="only-print contact-label">Linkedin: </label>
+                      <span class="contact-value" name="linkedin">/diogodomene</span>
+                    </a>
+                  </label>
+                  <label>
+                    <img class="no-print" src="images/github-brands.svg" />
+                    <a href="https://www.github.com/domenester" target="_blank">
+                      <label name="github" class="only-print contact-label">Github: </label>
+                      <span class="contact-value" name="github">/domenester</span>
+                    </a>
+                  </label>
                 </div>
-                <div class="skill-item">
-                  <div class="skill-item-title" name="tests"></div>
-                  <div name="testsValue"></div>
+              </div>
+              <div class="languages-container">
+                <div class="header">
+                  <div class="header-slash">/</div>
+                  <div class="header-text" name="languages"></div>
                 </div>
-                <div class="skill-item">
-                  <div class="skill-item-title" name="agile"></div>
-                  <div name="agileValue"></div>
+                <div class="flex space-between" style="margin-bottom: 10px;">
+                  <div class="date" name="english"></div>
+                  <div name="advanced"></div>
+                </div>
+                <div class="flex space-between">
+                  <div class="date" name="portuguese"></div>
+                  <div name="native"></div>
                 </div>
               </div>
             </div>

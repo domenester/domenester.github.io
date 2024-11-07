@@ -9,9 +9,9 @@
 
 
 
-    occupation: 'Engenheiro de Software',
+    occupation: 'Desenvolvedor Full Stack',
     age: '32 anos',
-    contact: 'Contato',
+    contact: 'contato',
     phone: 'Telefone: ',
     phoneNumber: '+55 (11) 99795-3111',
     address: 'Endereço: ',
@@ -71,7 +71,7 @@
     college: 'Universidade Anhembi Morumbi',
     courseFinished: 'Formado em 2016',
     techs: 'Tecnologias',
-    languages: 'Linguas',
+    languages: 'idiomas',
     english: 'Inglês',
     advanced: 'Avançado',
     native: 'Nativo',

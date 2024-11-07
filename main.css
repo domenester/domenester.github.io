@@ -1,9 +1,39 @@
 @media print {
+  html, body, .content, .container, .container-margin, .page-container {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .header {
+    margin-top: 10px !important;
+    margin-bottom: 5px !important;
+  }
+
+  .header-text, .company, .occupation {
+    font-size: 1rem !important;
+  }
+  .container-margin {
+    margin-top: -40px !important;
+  }
+
   .no-print {
     display: none !important;
   }
   .only-print {
     display: block !important;
+  }
+  .left-page,
+  .right-page {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+  .page-container {
+    display: block !important;
+  }
+
+  .contact-value, .contact-label {
+    display: inline !important;
   }
 }
 
@@ -70,7 +100,7 @@ label {
 }
 
 .container-margin {
-  margin: 20px 30px 20px 30px;
+  margin: -40px 30px 20px 30px;
 }
 
 .cv {
@@ -88,6 +118,11 @@ label {
 
 .cv-signal-text {
   color: #ffe771;
+}
+
+.cv-title {
+  text-align: center;
+  padding: 30px;
 }
 
 #numbers {
@@ -126,12 +161,12 @@ label {
 
 .left-page {
   width: 66.66%;
-  padding-right: 10px;
+  padding-right: 15px;
 }
 
 .right-page {
   width: 33.33%;
-  padding-left: 10px;
+  padding-left: 15px;
 }
 
 .occupation {
@@ -167,11 +202,44 @@ label {
 }
 
 .skill-item-title {
+  color: #ffe771;
   font-weight: bold;
+  display: inline;
+}
+
+.skill-item-value {
+  margin-left: 5px;
+  display: inline;
 }
 
 .page-container {
   display: flex;
+}
+
+.blue-strong {
+  color: #58e3ec;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.yellow-strong {
+  color: #ffe771;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.personal-box-content label {
+  margin: 15px 5px 5px 5px;
+}
+.personal-box-content img {
+  width: 18px;
+  height: 18px;
+  margin-right: 4px;
+  color: #ffe771;
+}
+
+.personal-box-content span {
+  vertical-align: text-bottom;
 }
 
 @media only screen and (max-width: 768px) {
@@ -258,23 +326,6 @@ label {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
-
-.personal-box-content {
-  margin: 0px 20px 0px 20px;
-}
-
-.personal-box-content label {
-  margin: 15px 5px 5px 5px;
-}
-.personal-box-content img {
-  width: 18px;
-  height: 18px;
-  margin-right: 4px;
-}
-
-.personal-box-content span {
-  vertical-align: text-bottom;
 }
 
 .selfie-content {
