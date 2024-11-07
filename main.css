@@ -131,7 +131,7 @@ label {
 }
 
 .container-margin {
-  margin: -40px 30px 20px 30px;
+  margin: -40px 30px 40px 30px;
 }
 
 .cv {
@@ -298,5 +298,9 @@ label {
   }
   .cv-title {
     padding-top: 10px;
+  }
+
+  .container-margin {
+    margin: -40px 10px 40px 10px;
   }
 }
