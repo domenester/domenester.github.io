@@ -1,8 +1,16 @@
 @media print {
-  html, body, .content, .container, .container-margin, .page-container {
+  html, .content, .container, .container-margin, .page-container {
     width: 100% !important;
     margin: 0 !important;
     padding: 0 !important;
+  }
+
+  body {
+    margin: 20px !important;
+  }
+
+  .content {
+    color: black !important;
   }
 
   .header {
@@ -49,7 +57,10 @@
     margin-top: 30px;
   }
 
-  
+  .occupation-container {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
 }
 
 a {
@@ -302,5 +313,24 @@ label {
 
   .container-margin {
     margin: -40px 10px 40px 10px;
+  }
+}
+
+@page {
+  margin: 5mm 0 0 0;
+  size: auto;
+  
+  /* Hide default header (page title, date) */
+  margin-header: 0;
+  
+  /* Hide default footer (URL, page numbers) */
+  margin-footer: 0;
+}
+
+/* For Chrome/Safari */
+@media print {
+  @page {
+    size: auto;
+    margin: 5mm 0 0 0;
   }
 }
