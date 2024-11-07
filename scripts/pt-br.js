@@ -39,7 +39,6 @@
     phoneNumber: '+55 (11) 99795-3111',
     address: 'Endereço: ',
     addressValue: 'SP - Pinheiros',
-    skills: 'Habilidades',
     programming: 'Programação',
     modeling: 'Modelagem',
     documentation: 'Documentação',
