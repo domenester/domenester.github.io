@@ -23,6 +23,13 @@
     college: 'University Anhembi Morumbi',
     courseFinished: '2016',
 
+    email: 'Email: ',
+    emailValue: 'diogo.domene@gmail.com',
+    linkedin: 'Linkedin: ',
+    linkedinValue: '/diogodomene',
+    github: 'Github: ',
+    githubValue: '/domenester',
+
     occupation: 'Full Stack Developer',
     age: '32 years old',
     contact: 'contact',
