@@ -48,44 +48,22 @@
     profileDescription: `Desenvolvedor JavaScript sênior com mais de 8 anos de experiência em criar e escalar aplicações web modernas e robustas, utilizando Node.js, React, e frameworks como NestJS e Next.js. Hábil em projetar e implementar arquiteturas resilientes e escaláveis, com expertise na otimização de performance, automação de processos (linting, CI/CD) e integração de APIs. Comprometido com a inovação e a criação de soluções eficientes que reduzem a necessidade de manutenção e impulsionam o crescimento do produto.`,
     experience: 'experiência',
     occupation8: 'Tech Lead',
-    exp8: `Criei a infraestrutura do backend (Nodejs) na AWS para milhares de usuários com ECS, o ambiente está configurado para rodar dentro de um contêiner Docker, fiz todos os pipelines para construir e implantar o sistema com CI/CD. A Hisolver é uma plataforma com muitos recursos onde ajudei a desenvolver muitos deles, como mensagens de chat, "personas" baseadas em Inteligência Artificial (API OpenAI), manipução de arquivos e assim por diante. As tecnologias de desenvolvimento é uma mistura de Vue, Nodejs, Express, MongoDB. As atividades incluem: desenvolvimento, teste, revisões de código, infraestrutura (AWS).`,
+    exp8_1: 'Construí a infraestrutura de backend na AWS usando ECS, com deploy em containers Docker. Desenvolvi pipelines de CI/CD para processos eficientes de build e deploy.',
+    exp8_2: 'Contribuí para diversas funcionalidades da plataforma, incluindo chat, personas com IA (via API da OpenAI) e manipulação de arquivos. O stack tecnológico inclui Vue, Node.js, Express e MongoDB, com responsabilidades abrangendo desenvolvimento, testes, revisão de código e gestão de infraestrutura na AWS.',
     occupation7: 'Engenheiro de Software Sênior',
-    exp7: `Sou responsável pela criação de novas features para o sistema da bem.care, utilizando a stack JS, 
-    com NodeJS, GraphQL, e SQL no backend, estruturado com API individuais para cada serviço, utilizando NestJS 
-    como framework. E no frontend, utilizamos React através do framework NextJS.
-    Eu ajudei a criar todo o sistema financeiro da empresa, criando um canal onde a comunicação com as informações antigas e legadas  pudessem ser melhor entendidas. A bemcare sendo uma empresa de saúde, também fiz parte do desenvolvimento de várias regras de negócio que conectavam as empresas com funcionários e médicos.`,
+    exp7_1: "Criei e implementei novas funcionalidades em uma stack baseada em JavaScript, com Node.js, GraphQL, SQL e NestJS para serviços no backend, e React/Next.js no frontend.",
+    exp7_2: "Contribuí para o desenvolvimento do sistema financeiro, integrando sistemas legados com novas estruturas de manipulação de dados. Desenvolvi regras de negócio complexas que conectavam clientes, funcionários e prestadores de serviços de saúde, essenciais para as operações da empresa.",
     occupation6: 'Engenheiro de Software',
-    exp6: `A BTime oferece serviços focados em gerenciamento de equipes de campo, basicamente, uma 
-    plataforma de checklist.
-    No back end utilizamos a arquitetura de micro-serviços, cada serviço se comunicava com outro via seneca, 
-    um pacote específico para comunicação de micro-serviços em Node.js.
-    A persistência dos dados eram feitas através do PostgreSQL, tendo o Redis como recurso de cache.
-    Para manter a disponibilidade do back end, esses serviços eram gerenciados por containers dentro do Rancher.
-    No front end, utilizamos Angular 8, com o pattern Observable para usufruir de suas características de streaming 
-    para manter os checklists atualizados em tempo real.`,
+    exp6_1: "Desenvolvi uma plataforma de checklist com arquitetura de microsserviços, utilizando Seneca para comunicação entre serviços em Node.js, PostgreSQL para persistência de dados e Redis como cache.",
+    exp6_2: "Utilizei Rancher para orquestração de containers, aumentando a disponibilidade do backend. No frontend, implementei atualizações em tempo real nos checklists usando o padrão Observable do Angular 8.",
     occupation5: 'Engenheiro de Software',
-    exp5: `Atividades: Atuo no projeto EPICALL, que visa oferecer 
-    ao cliente uma plataforma completa de comunicação, com recursos de telefonia (ligação de áudio via SIP), conferências e chat em tempo real, 
-    agendamento de conferências e outros recursos customizados. Utilizamos Node no backend, Angular 6 e React para o frontend.`,
+    exp5_1: "Contribuí para o projeto EPICALL, uma plataforma de comunicação completa com suporte a telefonia SIP, chat em tempo real, agendamento de conferências e funcionalidades personalizadas de telefonia. O stack incluía Node.js no backend e Angular 6/React no frontend.",
     occupation4: 'Engenheiro de Software',
-    exp4: `Atividades: Criamos uma exchange de criptomoedas, onde as transações foram feitas utilizando serviços da 
-    API BlockIO, que fornece a geração de carteiras virtuais, validação de transações e confirmações de transações já que esta, utiliza 
-    o modelo BLOCKCHAIN de validação. Como a necessidade da regra de negócio exigia uma aplicação real-time, utilizamos a stack NodeJS junto ao 
-    banco de dados Firebase, pois estes possuem características asíncronas que nos permite uma conexão não bloqueante. Para fins de produtividade, 
-    optamos o framework Loopback 3 para a exposição dos serviços via Rest, já que foi um produto que se demonstrou, na época, possuir vantagens 
-    em relação à esse ponto.`,
+    exp4_1: "Desenvolvi uma exchange de criptomoedas utilizando a API BlockIO para transações baseadas em blockchain, com Node.js e Firebase para suportar operações em tempo real.",
+    exp4_2: "Escolhi o Loopback 3 para exposição de serviços REST, otimizando a produtividade em um ambiente de desenvolvimento ágil.",
     occupation3: 'Desenvolvedor Back-End',
-    exp3: `Atividades:  Estamos desenvolvendo um projeto de beckend de canais, criando uma arquitetura em 
-    Node.js, pois a aplicação atual tem problemas com disponibilidade e desempenho. A linguagem de 
-    programação usada é o TypeScript, e há muitas bibliotecas que estamos usando para acelerar o 
-    processo de desenvolvimento, como gulp.js (task runner), eslint, e etc. Para garantir uma 
-    disponibilidade efetiva, os servidores node.js são implantados em um container docker, e o Kubernets 
-    (gerenciador docker), faz o trabalho de gerenciar o docker, implantando rapidamente um novo container 
-    se algo der errado com o atual.
-    Todas as funcionalidades / API possuem um teste unitário, esses testes são feitos com mocha.js e chai.
-    Para fins de desempenho, utilizamos o redis, um armazenamento de estrutura de dados em memória, 
-    usado como banco de dados local, o que elimina a necessidade de comunicação contínua com o banco 
-    de dados no servidor.`,
+    exp3_1: "Contribuí para o desenvolvimento de um backend para o Banco Santander, melhorando problemas de disponibilidade e performance com uma arquitetura Node.js baseada em TypeScript.",
+    exp3_2: "Utilizei Docker e Kubernetes para deployment escalável, e Redis para cache de dados, garantindo desempenho otimizado. Implementei testes unitários com Mocha e Chai.",
     occupation2: 'Consultor Sharepoint',
     occupation1: 'Desenvolvedor Web',
     education: 'formação',

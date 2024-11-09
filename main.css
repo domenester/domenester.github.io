@@ -63,6 +63,10 @@
   }
 }
 
+.occupation-container {
+  margin-bottom: 30px;
+}
+
 a {
   text-decoration: none;
 }
@@ -187,7 +191,7 @@ label {
   display: flex;
   align-items: center;
   gap: 5px;
-  margin-top: 60px;
+  margin-top: 50px;
   margin-bottom: 10px;
   font-size: 2rem;
   font-weight: bold;
@@ -237,6 +241,7 @@ label {
 
 .experience {
   margin-bottom: 20px;
+  display: inline;
 }
 
 .skill-item {
@@ -286,6 +291,17 @@ label {
 
 .contact-value {
   margin-left: 5px;
+}
+
+.paragraph-container {
+  margin-bottom: 20px;
+}
+
+.paragraph-dot {
+  margin-right: 5px;
+  display: inline;
+  color: #58e3ec;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 768px) {
