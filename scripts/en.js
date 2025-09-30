@@ -24,7 +24,7 @@
     courseFinished: '2016',
 
     email: 'Email: ',
-    emailValue: 'diogo.domene@gmail.com',
+    emailValue: 'diogodomene@gmail.com',
     linkedin: 'Linkedin: ',
     linkedinValue: '/diogodomene',
     github: 'Github: ',
