@@ -38,7 +38,7 @@
     phone: 'Telefone: ',
     phoneNumber: '+55 (11) 99795-3111',
     address: 'Endereço: ',
-    addressValue: 'SP - Pinheiros',
+    addressValue: 'São Paulo - Brasil',
     programming: 'Programação',
     modeling: 'Modelagem',
     documentation: 'Documentação',
